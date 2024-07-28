@@ -16,7 +16,8 @@
     "We must peform a quirkafleeg!",
     "Hello, World!",
     "404: Splash text not found",
-    "[insert something cool here]"
+    "[insert something cool here]",
+    "Now on github!",
   ];
   var x = Math.floor((Math.random() * splash.length));
   document.getElementById("splashtxt").innerHTML = splash[x];
