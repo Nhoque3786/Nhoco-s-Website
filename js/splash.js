@@ -21,6 +21,8 @@
     "I exploded the website's folder last time, whoops",
     "Olá, pessoa que sabe falar português :v",
     "i'm another splash text",
+    "I dream of a world where chickens can cross the road without having their motives questioned - brenbot",
+    "418 im a teapot"
   ];
   var x = Math.floor((Math.random() * splash.length));
   document.getElementById("splashtxt").innerHTML = splash[x];
