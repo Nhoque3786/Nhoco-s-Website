@@ -52,3 +52,80 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.waveChar {
+  position: relative;
+  animation: wave ease-in-out 0.9s infinite alternate;
+}
+
+
+.shakeChar {
+  position: relative;
+  animation: shake forwards infinite step-end;
+}
+
+@keyframes wave {
+  from {
+      top: .5rem;
+  }
+
+  to {
+      top: -.5rem;
+  }
+}
+
+@keyframes shake {
+  0% {
+      top: -1px;
+      left: 2px;
+  }
+
+  10% {
+      top: 7px;
+      left: -4px;
+  }
+
+  20% {
+      top: -5px;
+      left: -5px;
+  }
+
+  30% {
+      top: -8px;
+      left: 2px;
+  }
+
+  40% {
+      top: 7px;
+      left: 9px;
+  }
+
+  50% {
+      top: 4px;
+      left: -5px;
+  }
+
+  60% {
+      top: -5px;
+      left: -8px;
+  }
+
+  70% {
+      top: 6px;
+      left: -6px;
+  }
+
+  80% {
+      top: 9px;
+      left: -4px;
+  }
+
+  90% {
+      top: -5px;
+      left: -6px;
+  }
+
+  100% {
+      top: -9px;
+      left: 8px;
+  }
+}
