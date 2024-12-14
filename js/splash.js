@@ -4,6 +4,7 @@ fetch('assets/splashes.txt')
     const splash = data.split('\n').filter(line => line.trim() !== '');
     var x = Math.floor((Math.random() * splash.length));
     document.getElementById("splashtxt").innerHTML = splash[x];
+    recheckSpecialClasses()
   })
   .catch(error => {
     console.error('Erro ao carregar os splashes:', error);
