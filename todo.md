@@ -1,7 +1,7 @@
 # Stuff to do:
 
 ## Pages
-- [x] WIP Page
+- [x] WIP Page (Now a standalone verion called WIP edition! already up on [neocities!](https://nhoque.neocities.org))
 - [ ] Main 
 - [ ] Contact 
 - [ ] About
@@ -23,5 +23,5 @@
 - [x] Make the splashtext work
 - [ ] Learn (and remember) how to use JS, PHP and the other languages for web thing
 - [ ] Make out JS stuff for randomizing what nhoco is doing on the main page every f5
-- [ ] find a way to make the */pages/* not appear on the URL
+- [ ] ~~find a way to make the */pages/* not appear on the URL~~~(can't do it, need to research this more)
 - [ ] Make the splashtext change with time stuff (christmas, new year...)
