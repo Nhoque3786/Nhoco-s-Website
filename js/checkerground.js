@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const animX = parseFloat(canvas.getAttribute('animX')) || 1;
     const animY = parseFloat(canvas.getAttribute('animY')) || 1;
     const animation = canvas.getAttribute('animation') != "false";
-    // note: it didn't get the params so they are set up directly into the consts. need to fix this later!
 
     //get size of canvas
     const width = canvas.width;
@@ -34,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             animateCheckerboard()
         }
     }
-    //animate this (if has params)
-    function animateCheckerboard() { //do this shit later
+    //animate this (if true)
+    function animateCheckerboard() {
         offsetX = (offsetX+animX) % 64
         offsetY = (offsetY+animY) % 64
         requestAnimationFrame(drawCheckerboard)
