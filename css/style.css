@@ -20,12 +20,6 @@ body, body * {
   font-family: 'PixelFont', sans-serif !important;
 }
 
-.content {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 #splashtxt {
   text-align: center;
   margin-bottom: 2rem;
@@ -52,16 +46,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.waveChar {
-  position: relative;
-  animation: wave ease-in-out 0.9s infinite alternate;
-}
 
-
-.shakeChar {
-  position: relative;
-  animation: shake forwards infinite step-end;
-}
 
 @keyframes wave {
   from {

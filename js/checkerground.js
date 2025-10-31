@@ -1,3 +1,5 @@
+// noinspection GrazieInspection
+
 document.addEventListener('DOMContentLoaded', () => {
     const canvas = document.getElementById("Checkerground");
     const ctx = canvas.getContext("2d");
@@ -7,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const color2 = canvas.getAttribute('color2') || '000000';
     const animX = parseFloat(canvas.getAttribute('animX')) || 1;
     const animY = parseFloat(canvas.getAttribute('animY')) || 1;
-    const animation = canvas.getAttribute('animation') != "false";
+    const animation = canvas.getAttribute('animation') !== "false";
 
     //get size of canvas
     const width = canvas.width;
